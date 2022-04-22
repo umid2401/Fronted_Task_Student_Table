@@ -1,0 +1,23 @@
+.studentTable {
+  .ant-table-thead
+    > tr
+    > th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan]) {
+    &::before {
+      position: relative;
+      width: 0px;
+    }
+  }
+
+  .ant-table-cell {
+    border: 1px solid #f0f0f0;
+    &::before {
+      width: 0px;
+    }
+  }
+  td.ant-table-cell.ant-table-cell-fix-left.ant-table-cell-fix-left-last {
+    display: none;
+  }
+  th.ant-table-cell.ant-table-cell-fix-left.ant-table-cell-fix-left-last.ant-table-cell-fix-sticky {
+    display: none;
+  }
+}
