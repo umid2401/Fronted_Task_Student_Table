@@ -131,6 +131,7 @@ const StudentTablePage = () => {
 <Button type="primary" onClick={showModal}>
         Open Modal
       </Button>
+      <p>assalomu alayko'm</p>
 <Modal  title="Basic Modal" visible={isModalVisible} onOk={handleOk} onCancel={handleCancel}>
         <p>Some contents...</p>
         <p>Some contents...</p>
