@@ -108,20 +108,20 @@ const StudentTablePage = () => {
       summary={pageData => (
         <Table.Summary  fixed={fixedTop ? 'top' : 'bottom'}>
           <Table.Summary.Row  >
-            {/* <Table.Summary.Cell index={0} colSpan={2}>
+            <Table.Summary.Cell index={0} colSpan={2}>
               <Switch
                 checkedChildren="Fixed Top"
                 unCheckedChildren="Fixed Top"
                 checked={fixedTop}
                 
-                onChange={() => {
-                  setFixedTop(!fixedTop);
-                }}
+                // onChange={() => {
+                //   setFixedTop(!fixedTop);
+                // }
               />
             </Table.Summary.Cell> */}
-            {/* <Table.Summary.Cell index={2} colSpan={8}>
-            </Table.Summary.Cell>        */}
-                 {/* <Table.Summary.Cell index={10}></Table.Summary.Cell> */}
+             <Table.Summary.Cell index={2} colSpan={8}>
+            </Table.Summary.Cell>        
+                  <Table.Summary.Cell index={10}></Table.Summary.Cell>
           </Table.Summary.Row>
         </Table.Summary>
       )}
